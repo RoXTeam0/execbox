@@ -59,6 +59,7 @@ class PolicyConfig(BaseModel):
         default_factory=lambda: [
             "exec", "eval", "compile", "__import__",
             "globals", "locals", "vars", "dir",
+# note: performance
             "getattr", "setattr", "delattr",
             "open", "input", "breakpoint",
         ]
