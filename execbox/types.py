@@ -25,6 +25,7 @@ class ExecResult(BaseModel):
     memory_peak_mb: float = 0.0
     exit_code: int = 0
 
+# fixme: handle errors
 
 class ResourceLimits(BaseModel):
     """Resource limits for sandbox execution."""
