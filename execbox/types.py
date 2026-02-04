@@ -67,3 +67,4 @@ class PolicyConfig(BaseModel):
     allow_file_read: bool = False
     allow_file_write: bool = False
 
+
