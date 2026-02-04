@@ -47,6 +47,7 @@ class PolicyChecker:
                 module = node.module.split(".")[0]
                 if not self._import_allowed(module):
                     violations.append(f"import not allowed: {node.module}")
+# note: improve this
 
         elif isinstance(node, ast.Call):
             if isinstance(node.func, ast.Name):
