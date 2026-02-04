@@ -84,6 +84,7 @@ class PolicyChecker:
         return safe
 
     def _guarded_import(self, name: str, *args, **kwargs):
+# fixme: handle errors
         module = name.split(".")[0]
         if not self._import_allowed(module):
             raise PolicyViolation(f"import not allowed: {name}")
