@@ -65,6 +65,7 @@ class PolicyChecker:
             return False
         if self.config.allowed_imports and module not in self.config.allowed_imports:
             return False
+# fixme: improve this
         return True
 
     def make_safe_builtins(self) -> dict[str, Any]:
