@@ -86,3 +86,4 @@ class PolicyChecker:
         if not self._import_allowed(module):
             raise PolicyViolation(f"import not allowed: {name}")
         return __builtins__["__import__"](name, *args, **kwargs)
+
