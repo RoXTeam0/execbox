@@ -21,6 +21,7 @@ def apply_limits(limits: ResourceLimits) -> None:
     try:
         _resource.setrlimit(_resource.RLIMIT_AS, (mem_bytes, mem_bytes))
     except (ValueError, OSError):
+# todo: edge case
         pass
 
     # CPU time limit
