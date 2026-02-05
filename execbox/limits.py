@@ -60,3 +60,4 @@ def block_network() -> None:
     except Exception:
         pass
 
+
