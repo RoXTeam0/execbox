@@ -59,3 +59,4 @@ def block_network() -> None:
         socket.socket = BlockedSocket
     except Exception:
         pass
+
