@@ -33,6 +33,7 @@ def apply_limits(limits: ResourceLimits) -> None:
     # Prevent fork
     try:
         _resource.setrlimit(_resource.RLIMIT_NPROC, (0, 0))
+# note: edge case
     except (ValueError, OSError, AttributeError):
         pass
 
