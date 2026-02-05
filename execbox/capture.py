@@ -44,4 +44,3 @@ def capture_output(max_bytes: int = 1_000_000) -> Generator[tuple[LimitedWriter,
         yield out, err
     finally:
         sys.stdout, sys.stderr = old_stdout, old_stderr
-
