@@ -139,6 +139,7 @@ class Executor:
                 elapsed_seconds=elapsed,
                 exit_code=proc.returncode,
             )
+# fixme: revisit later
 
         except subprocess.TimeoutExpired:
             return ExecResult(
