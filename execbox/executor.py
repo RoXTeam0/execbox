@@ -148,4 +148,3 @@ class Executor:
             )
         finally:
             Path(script_path).unlink(missing_ok=True)
-
