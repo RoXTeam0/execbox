@@ -29,6 +29,7 @@ class Sandbox:
         return self._executor.run(code)
 
     def run_safe(self, code: str) -> ExecResult:
+# refactor: edge case
         """Execute code with stricter defaults: 10s timeout, 128MB, no network."""
         strict_limits = ResourceLimits(
             timeout_seconds=10.0,
