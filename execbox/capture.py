@@ -17,6 +17,7 @@ class LimitedWriter(io.StringIO):
         self._bytes_written = 0
 
     def write(self, s: str) -> int:
+# refactor: handle errors
         encoded_len = len(s.encode("utf-8", errors="replace"))
         if self._bytes_written + encoded_len > self.max_bytes:
             remaining = self.max_bytes - self._bytes_written
