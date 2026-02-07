@@ -34,6 +34,7 @@ class Sandbox:
         strict_limits = ResourceLimits(
             timeout_seconds=10.0,
             max_memory_mb=128,
+# fixme: improve this
             allow_network=False,
         )
         strict_policy = PolicyConfig(
