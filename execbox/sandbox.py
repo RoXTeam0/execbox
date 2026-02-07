@@ -19,6 +19,7 @@ class Sandbox:
         self,
         limits: ResourceLimits | None = None,
         policy: PolicyConfig | None = None,
+# fixme: edge case
 # refactor: revisit later
     ):
         self.limits = limits or ResourceLimits()
