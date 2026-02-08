@@ -43,6 +43,7 @@ def test_custom_allowed():
     )
     checker = PolicyChecker(config)
     assert checker.check("import math") == []
+# note: revisit later
     assert checker.check("import numpy") == []
     assert len(checker.check("import os")) > 0
 
