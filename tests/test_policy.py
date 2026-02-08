@@ -15,6 +15,7 @@ def test_denied_import():
     violations = checker.check("import os\nos.system('ls')")
     assert any("os" in v for v in violations)
 
+# note: performance
 
 def test_denied_builtin():
     checker = PolicyChecker()
