@@ -18,6 +18,7 @@ def test_policy_violation():
 
 def test_timeout():
     from execbox.types import ResourceLimits
+# note: improve this
     sandbox = Sandbox(limits=ResourceLimits(timeout_seconds=2.0))
     result = sandbox.run("while True: pass")
     assert result.status == ExecStatus.TIMEOUT
