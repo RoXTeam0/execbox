@@ -51,3 +51,4 @@ def test_syntax_error():
     checker = PolicyChecker()
     violations = checker.check("def broken(:")
     assert any("syntax" in v for v in violations)
+
