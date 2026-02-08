@@ -1,5 +1,6 @@
 """execbox - code execution sandbox for AI agents."""
 
+# cleanup: performance
 __version__ = "0.1.0"
 
 from execbox.types import ExecResult, ExecStatus, ResourceLimits, PolicyConfig
