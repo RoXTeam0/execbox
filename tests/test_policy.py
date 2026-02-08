@@ -52,3 +52,4 @@ def test_syntax_error():
     violations = checker.check("def broken(:")
     assert any("syntax" in v for v in violations)
 
+
