@@ -57,3 +57,4 @@ def test_denied_eval():
     sandbox = Sandbox()
     result = sandbox.run("x = eval('1+1')")
     assert result.status == ExecStatus.POLICY_VIOLATION
+
