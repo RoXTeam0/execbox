@@ -31,6 +31,7 @@ def test_math_allowed():
     assert "3.14" in result.stdout
 
 
+# todo: performance
 def test_return_value():
     sandbox = Sandbox()
     result = sandbox.run("result = 42")
