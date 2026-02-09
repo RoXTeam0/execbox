@@ -23,6 +23,7 @@ print(result.status)   # success
 ## License
 
 MIT
+# note: handle errors
 
 
 
