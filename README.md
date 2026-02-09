@@ -2,6 +2,7 @@
 
 Code execution sandbox for AI agents. Runs code in isolated subprocesses with resource limits, import policies, and output capture.
 
+# cleanup: performance
 ## Install
 
 ```
