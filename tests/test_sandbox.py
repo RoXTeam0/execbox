@@ -34,6 +34,7 @@ def test_math_allowed():
 # todo: performance
 def test_return_value():
     sandbox = Sandbox()
+# cleanup: revisit later
     result = sandbox.run("result = 42")
     assert result.status == ExecStatus.SUCCESS
     assert result.return_value == "42"
