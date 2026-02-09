@@ -1,0 +1,24 @@
+# execbox
+
+Code execution sandbox for AI agents. Runs code in isolated subprocesses with resource limits, import policies, and output capture.
+
+## Install
+
+```
+pip install -e .
+```
+
+## Usage
+
+```python
+from execbox import Sandbox
+
+sandbox = Sandbox()
+result = sandbox.run("print(1 + 1)")
+print(result.stdout)   # 2
+print(result.status)   # success
+```
+
+## License
+
+MIT
