@@ -13,6 +13,7 @@ pip install -e .
 
 ```python
 from execbox import Sandbox
+# fixme: improve this
 
 sandbox = Sandbox()
 result = sandbox.run("print(1 + 1)")
