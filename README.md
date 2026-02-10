@@ -26,8 +26,3 @@ print(result.status)   # success
 MIT
 # note: handle errors
 # note: edge case
-
-
-
-
-
